@@ -1,11 +1,21 @@
-import Axios from 'axios';
+// import Axios from "axios";
 import './App.css';
+import NewReceipt from './NewReceipt';
+import ReceiptTable from './ReceiptTable';
 
 function App() {
   return (
     <div>
-      <button onClick={() => {
-        
+
+      <header>
+        <NewReceipt />
+      </header>
+      
+      <main>
+        <ReceiptTable />
+      </main>
+
+      {/* <button onClick={() => {
         Axios
             .get('http://127.0.0.1:8000/api/execute')
             .then(response => {
@@ -14,7 +24,7 @@ function App() {
                 console.log('通信に失敗しました');
             });
 
-      }}>Click!</button>
+      }}>Click!</button> */}
     </div>
   );
 }

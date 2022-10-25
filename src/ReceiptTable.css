@@ -1,0 +1,14 @@
+
+#receiptTable {
+    margin: auto;
+    margin-top: 80px;
+}
+
+#receiptTable tr {
+    background-color: rgb(237, 237, 237);
+}
+
+#receiptTable th {
+    background-color: #2185d0;
+    color: rgb(245, 245, 245);
+}

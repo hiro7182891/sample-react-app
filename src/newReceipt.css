@@ -1,0 +1,22 @@
+
+#provisoTable th {
+    background-color: rgb(237, 237, 237);
+}
+
+#row1 {
+    width: 100%;
+}
+
+#row1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#name {
+    float: left;
+}
+
+#addBtn {
+    float: right;
+}
